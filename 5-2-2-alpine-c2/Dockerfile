@@ -1,6 +1,5 @@
 FROM postman/newman:5.2.2-alpine
 
-# Bail out early if NODE_VERSION is not provided
 WORKDIR /npm
 COPY ["npm/*.tgz", "./"]
 RUN npm install -g newman-reporter-junitfull && \
