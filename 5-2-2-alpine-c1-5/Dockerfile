@@ -10,4 +10,3 @@ RUN npm install -g newman-reporter-htmlextra && \
     npm install -g newman-reporter-influxdb-jenkins && \
     npm install -g newman-reporter-confluence && \
     npm install -g newman-reporter-statsd
-    
